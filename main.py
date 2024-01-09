@@ -202,4 +202,4 @@ with psycopg2.connect(database='postgres', user='postgres', password='1234', hos
     print(delete_client(conn, client_id=3))
     print(find_client(conn, client_surname='Короткова'))
     print(find_client(conn, phone='965 (354) 803-34-64'))
-conn.close()
+    conn.close()
